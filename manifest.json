@@ -1,0 +1,88 @@
+{
+  "id": "/kwathu campus",
+  "name": "Kwathu Campus LAMAU",
+  "short_name": "Kwathu LAMAU",
+  "description": "This app is for students and landlords around LAMAU university in order to provide easy hostel hunt .",
+  "start_url": "/index",
+  "scope": "/any",
+  "display": "fullscreen",
+  "display_override": [
+    "window-controls-overlay",
+    "standalone",
+    "browser",
+    "fullscreen",
+    "minimal-ui"
+  ],
+  "orientation": "portrait",
+  "background_color": "#989898",
+  "theme_color": "#ff0000",
+  "lang": "en",
+  "dir": "auto",
+  "categories": [
+    "education",
+    "lifestyle",
+    "travel"
+  ],
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Browse Hostels",
+      "short_name": "Browse",
+      "description": "Find hostels near LAMAU",
+      "url": "/hostels.html",
+      "icons": [
+        {
+          "src": "/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Post Hostel",
+      "short_name": "Post",
+      "url": "/post-hostel.html",
+      "icons": [
+        {
+          "src": "/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "prefer_related_applications": false
+}
