@@ -1,19 +1,78 @@
 {
-  "background_color": "#ffffff",
-  "description": "Discover verified hostels near LAMAU - LAMAU only. Compare prices with Kwathu Campus LAMAU.",
-  "dir": "ltr",
+  "id": "./index.html",
+  "name": "Kwathu Campus LAMAU",
+  "short_name": "Kwathu",
+  "description": "This app is for students and landlords around LAMAU university in order to provide easy hostel hunt.",
+  "start_url": "./index.html",
+  "scope": "./",
   "display": "standalone",
-  "name": "kwathu campus LAMAU",
-  "orientation": "any",
-  "scope": "/",
-  "short_name": "LAMAU",
-  "start_url": "/https://funghaiandrew-max.github.io/Kwathucampus-LAMAU1/hostels.html",
-  "theme_color": "#071426",
-  "id": "Lostloyaltytech.app.com",
+  "orientation": "portrait",
+  "background_color": "#FFFFFF",
+  "theme_color": "#1E40AF",
   "lang": "en",
-  "categories": [
-    "business",
-    "education",
-    "navigation"
-  ]
+  "dir": "ltr",
+  "categories": ["education", "lifestyle", "travel"],
+  "icons": [
+    {
+      "src": "logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Browse Hostels",
+      "short_name": "Browse",
+      "description": "Find hostels near LAMAU",
+      "url": "./hostels.html",
+      "icons": [
+        {
+          "src": "logo.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "List Your Hostel",
+      "short_name": "List",
+      "description": "List your hostel for LAMAU students",
+      "url": "./register.html",
+      "icons": [
+        {
+          "src": "logo.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "prefer_related_applications": false
 }
